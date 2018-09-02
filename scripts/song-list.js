@@ -1,4 +1,5 @@
 {
+  
   album.songs.forEach( (song, index) => {
     song.element = $(`
       <tr>
@@ -18,4 +19,5 @@
     });
     $('#song-list').append(song.element);
   });
+
 }
