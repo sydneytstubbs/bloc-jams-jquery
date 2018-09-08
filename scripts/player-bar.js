@@ -27,7 +27,7 @@ $('button#play-pause').on('click', function() {
     $('#time-control input').on('input', function (event) {
        player.skipTo(event.target.value);
    });
-   
+// Sliders Assignment, Question 1 Answered
     $('#volume-control input').on('input', function(event){
      player.setVolume(event.target.value);
    });
@@ -39,7 +39,7 @@ $('button#play-pause').on('click', function() {
       const percent = (currentTime / duration) * 100;
       $('#time-control .current-time').text( currentTime );
       $('#time-control input').val(percent);
-
+// Sliders Assignment, Question 2 Answered
       $('#time-control .total-time').text( duration );
     }, 1000);
 
